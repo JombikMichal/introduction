@@ -17,7 +17,11 @@ public class Main {
         //rectangle.print();
 
         //#5
-        MultiplicationTable multiplicationTable = new MultiplicationTable(5,10);
-        multiplicationTable.print();
+        //MultiplicationTable multiplicationTable = new MultiplicationTable(5,10);
+        //multiplicationTable.print();
+
+        //#6
+        SandGlass sandGlass = new SandGlass(3);
+        sandGlass.print();
     }
 }
