@@ -17,7 +17,7 @@ public class Main {
         //rectangle.print();
 
         //#5
-        MultiplicationTable multiplicationTable = new MultiplicationTable(10,5);
+        MultiplicationTable multiplicationTable = new MultiplicationTable(5,10);
         multiplicationTable.print();
     }
 }

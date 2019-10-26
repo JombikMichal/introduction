@@ -27,7 +27,7 @@ public class MultiplicationTable {
     public void print() {
         //#5 Print a multiplication table for a given number n
         for (int i = 1; i <= itertion; i++) {
-            System.out.println(i + " * " + n + " = " + (i * n));
+            System.out.println(String.format("%-3d %-3s %-3d %-3s %d ",i,"*",n,"=",(n*i)));
         }
     }
 }
