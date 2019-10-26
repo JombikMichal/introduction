@@ -13,7 +13,11 @@ public class Main {
         //tree.print();
 
         //#4
-//        Rectangle rectangle = new Rectangle(10,5);
-//        rectangle.print();
+        //Rectangle rectangle = new Rectangle(10,5);
+        //rectangle.print();
+
+        //#5
+        MultiplicationTable multiplicationTable = new MultiplicationTable(10);
+        multiplicationTable.print();
     }
 }
