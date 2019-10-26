@@ -21,7 +21,11 @@ public class Main {
         //multiplicationTable.print();
 
         //#6
-        SandGlass sandGlass = new SandGlass(3);
-        sandGlass.print();
+        //SandGlass sandGlass = new SandGlass(3);
+        //sandGlass.print();
+
+        //#7
+        Prime prime = new Prime(7);
+        prime.print();
     }
 }
