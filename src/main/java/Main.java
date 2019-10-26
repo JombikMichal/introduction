@@ -25,7 +25,7 @@ public class Main {
         //sandGlass.print();
 
         //#7
-        Prime prime = new Prime(7);
+        Prime prime = new Prime(79);
         prime.print();
     }
 }
