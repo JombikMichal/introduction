@@ -9,9 +9,9 @@ public class Triangle {
         return height;
     }
 
-    public void print(){
+    public void print() {
         //#2 Implement a method that will draw a triangle from * for given height h,
-        for (int i = 0; i < height; i ++){
+        for (int i = 0; i < height; i++) {
             System.out.println("*".repeat(i + 1));
         }
     }
