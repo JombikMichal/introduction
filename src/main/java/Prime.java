@@ -1,5 +1,6 @@
 public class Prime {
     private final int n;
+    private boolean prime;
 
     public Prime(int n) {
         this.n = n;
@@ -9,13 +10,21 @@ public class Prime {
         return n;
     }
 
-    public void print() {
+    private boolean isPrime() {
         for (int i = 2; i < n; i++) {
             if (n % i == 0) {
-                System.out.println(String.format("%-2s %-2d %-2s", "Number", n, "is no prime"));
-                return;
+               prime = true;
             }
         }
-        System.out.println(String.format("%s %d %s", "Number", n, "is prime"));
+        return prime;
     }
+
+    public void print(){
+        if(isPrime()){
+            System.out.println(String.format("%-2s %-2d %-2s", "Number", n, "is no prime"));
+        }else {
+            System.out.println(String.format("%s %d %s", "Number", n, "is prime"));
+        }
+    }
+
 }
