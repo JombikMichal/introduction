@@ -1,4 +1,4 @@
-public class Rectangle {
+public class Rectangle implements Printer{
     private final int m;
     private final int n;
 
@@ -15,8 +15,13 @@ public class Rectangle {
         return n;
     }
 
+    @Override
     public void print() {
-        //#4 Print a rectangle from * with sides m and n.
+
+        /**
+         * #4 Print a rectangle from * with sides m and n
+         */
+
         if (n == m) {
             throw new IllegalArgumentException("This is no rectangle but this is squere! Reason: side m is equals side n! Try again! Enjoy :) ");
         }
@@ -33,5 +38,7 @@ public class Rectangle {
             }
             System.out.println();
         }
+        System.out.println();
+        System.out.println();
     }
 }

@@ -1,4 +1,4 @@
-public class SandGlass {
+public class SandGlass implements Printer{
     private final int n;
     private Tree tree;
 
@@ -11,10 +11,12 @@ public class SandGlass {
         return n;
     }
 
-    void print() {
+    @Override
+    public void print() {
+
         /**
-            * #6 Print a sand glass from * with height n (odd)
-         **/
+         * #6 Print a sand glass from * with height n (odd)
+         */
 
         for (int i = 0; i < n; i++) {
             if (i != n - 1) {
