@@ -15,18 +15,17 @@ public class Rectangle implements Printer{
         return n;
     }
 
+    /**
+     * #4 Print a rectangle from * with sides m and n
+     */
+
     @Override
     public void print() {
-
-        /**
-         * #4 Print a rectangle from * with sides m and n
-         */
-
         if (n == m) {
-            throw new IllegalArgumentException("This is no rectangle but this is squere! Reason: side m is equals side n! Try again! Enjoy :) ");
+            throw new IllegalArgumentException("This is no rectangle but this is square! Reason: side m is equals side n! Try again! Enjoy :) ");
         }
         if (m <= 0 || n <= 0) {
-            throw new IllegalArgumentException("Some side is equals zero!");
+            throw new IllegalArgumentException("Some side is equals or less than zero!");
         }
         for (int i = 0; i <= m; i++) {
             for (int j = 0; j <= n; j++) {
@@ -38,7 +37,5 @@ public class Rectangle implements Printer{
             }
             System.out.println();
         }
-        System.out.println();
-        System.out.println();
     }
 }

@@ -2,10 +2,10 @@ public class Fibonacci implements Printer {
     private final int n;
 
     public Fibonacci(int n) throws IllegalArgumentException {
-        this.n = n;
         if (n < 0) {
             throw new IllegalArgumentException("Your number is less than zero! Are you kidding me?");
         }
+        this.n = n;
     }
 
     public int getN() {
@@ -22,6 +22,9 @@ public class Fibonacci implements Printer {
         int first = 0;
         int second = 1;
         int result = 0;
+        if (n < 2) {
+            result = n;
+        }
         for (int i = 0; i < n - 1; ++i) {
             result = first + second;
             first = second;
@@ -31,8 +34,6 @@ public class Fibonacci implements Printer {
 
         int i = fib(this.n);
         System.out.println(String.format("%s %d %s %d ", "Fibonacci number (from recurse function) for input", n, "is:", i));
-        System.out.println();
-        System.out.println();
     }
 
     private int fib(int n) {

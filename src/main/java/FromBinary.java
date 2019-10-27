@@ -25,7 +25,5 @@ public class FromBinary implements Printer{
             result += Character.getNumericValue(reverseCode.toCharArray()[i]) * Math.pow(2, i);
         }
         System.out.println(String.format("%s %s %s %d", "Your code", code, "in decimal:", result));
-        System.out.println();
-        System.out.println();
     }
 }

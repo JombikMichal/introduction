@@ -1,4 +1,4 @@
-public class FizzBuzz implements Printer{
+public class FizzBuzz implements Printer {
     private final int n;
 
     public FizzBuzz(int n) {
@@ -21,21 +21,16 @@ public class FizzBuzz implements Printer{
 
         if (n % 15 == 0) {
             System.out.println("FizzBuzz");
-            System.out.println();
-            System.out.println();
             return;
         }
         if (n % 3 == 0) {
             System.out.println("Fizz");
-            System.out.println();
-            System.out.println();
             return;
         }
         if (n % 5 == 0) {
             System.out.println("Buzz");
-            System.out.println();
-            System.out.println();
             return;
         }
+        System.out.println(String.format("%s %d %s", "Your number", n, "is no divisible by 3 or 5"));
     }
 }
