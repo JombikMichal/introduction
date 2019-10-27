@@ -20,6 +20,10 @@ public class Prime {
     }
 
     public void print(){
+        /**
+         * #6 Determine if number n given as a parameter is a prime.
+         **/
+
         if(isPrime()){
             System.out.println(String.format("%-2s %-2d %-2s", "Number", n, "is no prime"));
         }else {

@@ -12,7 +12,10 @@ public class SandGlass {
     }
 
     void print() {
-        //#6 Print a sand glass from * with height n (odd)
+        /**
+            * #6 Print a sand glass from * with height n (odd)
+         **/
+
         for (int i = 0; i < n; i++) {
             if (i != n - 1) {
                 System.out.print(" ".repeat(i));

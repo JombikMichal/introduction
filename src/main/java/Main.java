@@ -34,6 +34,8 @@ public class Main {
         //fibonacci.print2();
 
         //#9
+        FizzBuzz fizzBuzz = new FizzBuzz(4);
+        fizzBuzz.print();
 
     }
 }

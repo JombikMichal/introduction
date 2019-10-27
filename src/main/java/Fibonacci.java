@@ -13,8 +13,11 @@ public class Fibonacci {
     }
 
     public void print() {
-        //#8 Print n-th Fibonacci number. Try both approaches. Which one is more efficient?
-        //Fibonacci Series of 10 numbers: 0 1 1 2 3 5 8 13 21 34
+        /**
+            * #8 Print n-th Fibonacci number. Try both approaches. Which one is more efficient?
+            * Fibonacci Series of 10 numbers: 0 1 1 2 3 5 8 13 21 34
+         * **/
+
         int first = 0;
         int second = 1;
         int result = 0;
