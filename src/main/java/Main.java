@@ -28,8 +28,12 @@ public class Main {
         //Prime prime = new Prime(79);
         //prime.print();
 
-        //#8
-        Fibonacci fibonacci = new Fibonacci(8);
-        fibonacci.print();
+        //#8 Fibonacci Series of 10 numbers: 0 1 1 2 3 5 8 13 21 34
+        //Fibonacci fibonacci = new Fibonacci(-1);
+        //fibonacci.print();
+        //fibonacci.print2();
+
+        //#9
+
     }
 }
