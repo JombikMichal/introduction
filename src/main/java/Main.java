@@ -34,8 +34,12 @@ public class Main {
         //fibonacci.print2();
 
         //#9
-        FizzBuzz fizzBuzz = new FizzBuzz(4);
-        fizzBuzz.print();
+        //FizzBuzz fizzBuzz = new FizzBuzz(4);
+        //fizzBuzz.print();
+
+        //#10
+        ToBinary toBinary = new ToBinary(10);
+        toBinary.print();
 
     }
 }
