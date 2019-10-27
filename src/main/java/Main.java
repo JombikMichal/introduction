@@ -25,7 +25,11 @@ public class Main {
         //sandGlass.print();
 
         //#7
-        Prime prime = new Prime(79);
-        prime.print();
+        //Prime prime = new Prime(79);
+        //prime.print();
+
+        //#8
+        Fibonacci fibonacci = new Fibonacci(8);
+        fibonacci.print();
     }
 }
