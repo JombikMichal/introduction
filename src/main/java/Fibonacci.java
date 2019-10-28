@@ -1,5 +1,6 @@
 public class Fibonacci implements Printer {
     private final int n;
+    private String result;
 
     public Fibonacci(int n) throws IllegalArgumentException {
         if (n < 0) {
@@ -10,6 +11,10 @@ public class Fibonacci implements Printer {
 
     public int getN() {
         return n;
+    }
+
+    public String getResult() {
+        return result;
     }
 
     @Override
@@ -30,10 +35,12 @@ public class Fibonacci implements Printer {
             first = second;
             second = result;
         }
-        System.out.println(String.format("%s %d %s %d ", "Fibonacci number for input", n, "is:", result));
+        this.result = String.format("%s %d %s %d ", "Fibonacci number for input", n, "is:", result);
+        System.out.println(result);
 
         int i = fib(this.n);
-        System.out.println(String.format("%s %d %s %d ", "Fibonacci number (from recurse function) for input", n, "is:", i));
+        this.result = String.format("%s %d %s %d ", "Fibonacci number (from recurse function) for input", n, "is:", i);
+        System.out.println(result);
     }
 
     private int fib(int n) {

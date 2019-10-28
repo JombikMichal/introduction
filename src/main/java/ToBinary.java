@@ -1,14 +1,17 @@
 public class ToBinary implements Printer {
     private final int n;
+    private String result;
 
     public ToBinary(int n) {
-
-            this.n = n;
-
+        this.n = n;
     }
 
     public int getN() {
         return n;
+    }
+
+    public String getResult() {
+        return result;
     }
 
     /**
@@ -23,9 +26,11 @@ public class ToBinary implements Printer {
             sb.append(i % 2);
         }
         if (this.n < 0) {
-            System.out.println(String.format("%s %d %s %s", "Your number", this.n, "in binary: -", sb.reverse()));
+            this.result = String.format("%s %d %s %s", "Your number", this.n, "in binary: -", sb.reverse());
+            System.out.println(this.result);
         } else {
-            System.out.println(String.format("%s %d %s %s", "Your number", this.n, "in binary:", sb.reverse()));
+            this.result = String.format("%s %d %s %s", "Your number", this.n, "in binary:", sb.reverse());
+            System.out.println(this.result);
         }
 
     }

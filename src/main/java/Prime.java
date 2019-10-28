@@ -1,6 +1,7 @@
 public class Prime implements Printer {
     private final int n;
     private boolean prime;
+    private String result;
 
     public Prime(int n) {
         this.n = n;
@@ -8,6 +9,10 @@ public class Prime implements Printer {
 
     public int getN() {
         return n;
+    }
+
+    public String getResult() {
+        return result;
     }
 
     private boolean isPrime() {
@@ -33,9 +38,11 @@ public class Prime implements Printer {
     @Override
     public void print() {
         if (isPrime()) {
-            System.out.println(String.format("%-2s %-2d %-2s", "Number", n, "is no prime"));
+            this.result = String.format("%-2s %-2d %-2s", "Number", n, "is no prime");
+            System.out.println(this.result);
         } else {
-            System.out.println(String.format("%s %d %s", "Number", n, "is prime"));
+            this.result = String.format("%s %d %s", "Number", n, "is prime");
+            System.out.println(this.result);
         }
     }
 

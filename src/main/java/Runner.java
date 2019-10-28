@@ -14,7 +14,7 @@ public class Runner {
         return instance;
     }
 
-    public static void run(){
+    static void run(){
         List<Printer> printers =new ArrayList<>();
         printers.add(new HelloWorld());
         printers.add(new Triangle(3));

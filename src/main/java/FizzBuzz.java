@@ -1,5 +1,6 @@
 public class FizzBuzz implements Printer {
     private final int n;
+    private String result;
 
     public FizzBuzz(int n) {
         this.n = n;
@@ -7,6 +8,10 @@ public class FizzBuzz implements Printer {
 
     public int getN() {
         return n;
+    }
+
+    public String getResult() {
+        return result;
     }
 
     @Override
@@ -20,15 +25,18 @@ public class FizzBuzz implements Printer {
          */
 
         if (n % 15 == 0) {
-            System.out.println("FizzBuzz");
+            this.result = "FizzBuzz";
+            System.out.println(result);
             return;
         }
         if (n % 3 == 0) {
-            System.out.println("Fizz");
+            this.result = "Fizz";
+            System.out.println(result);
             return;
         }
         if (n % 5 == 0) {
-            System.out.println("Buzz");
+            this.result = "Buzz";
+            System.out.println(result);
             return;
         }
         System.out.println(String.format("%s %d %s", "Your number", n, "is no divisible by 3 or 5"));

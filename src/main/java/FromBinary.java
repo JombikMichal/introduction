@@ -1,5 +1,6 @@
 public class FromBinary implements Printer{
     private final String code;
+    private String result;
 
     public FromBinary(String code) throws IllegalArgumentException {
         if(!code.matches("[0-1]+")){
@@ -10,6 +11,10 @@ public class FromBinary implements Printer{
 
     public String getCode() {
         return code;
+    }
+
+    public String getResult() {
+        return result;
     }
 
     @Override
@@ -24,6 +29,7 @@ public class FromBinary implements Printer{
         for (int i = 0; i < reverseCode.toCharArray().length; i++) {
             result += Character.getNumericValue(reverseCode.toCharArray()[i]) * Math.pow(2, i);
         }
-        System.out.println(String.format("%s %s %s %d", "Your code", code, "in decimal:", result));
+        this.result = String.format("%s %s %s %d", "Your code", code, "in decimal:", result);
+        System.out.println(this.result);
     }
 }
