@@ -51,7 +51,7 @@ public class TestIntro {
     }
 
     @Test(expected = IllegalArgumentException.class)
-    public void enteredValues() {
+    public void incorectValues() {
         rectangle.print();
     }
 
