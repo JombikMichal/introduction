@@ -19,6 +19,13 @@ public class Prime implements Printer {
         return prime;
     }
 
+//    private boolean isPrime2() {
+//        if((6*n - 1)){
+//
+//        }
+//        return prime;
+//    }
+
     /**
      * #6 Determine if number n given as a parameter is a prime.
      */
