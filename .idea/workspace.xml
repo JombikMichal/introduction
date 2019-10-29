@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2ead7c7-2981-4f02-ba09-ccab24027f00" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Fibonacci.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FizzBuzz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FromBinary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HelloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MultiplicationTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Prime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Printer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SandGlass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ToBinary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Triangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/binary_operations/FromBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/binary_operations/FromBinary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FromBinaryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FromBinaryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,7 +19,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -40,6 +27,39 @@
               <folding>
                 <element signature="e#64#65#0" expanded="true" />
                 <element signature="e#92#93#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/binary_operations/FromBinary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+              <folding>
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/FromBinaryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="51" lean-forward="true" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#605#606#0" expanded="true" />
+                <element signature="e#689#690#0" expanded="true" />
+                <element signature="e#752#753#0" expanded="true" />
+                <element signature="e#832#833#0" expanded="true" />
+                <element signature="e#890#891#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,13 +99,14 @@
         <option value="$PROJECT_DIR$/src/main/java/Prime.java" />
         <option value="$PROJECT_DIR$/src/test/java/PrimeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/binary_operations/ToBinary.java" />
-        <option value="$PROJECT_DIR$/src/test/java/FromBinaryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ToBinaryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/fibonacci/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/test/java/FibonacciTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/fizzBuzz/FizzBuzz.java" />
         <option value="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MultiplicationTableTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/binary_operations/FromBinary.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FromBinaryTest.java" />
       </list>
     </option>
   </component>
@@ -144,6 +165,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="binary_operations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="introduction_to_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="introduction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="shapes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -185,19 +214,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.FromBinaryTest.nullInput">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="introduction" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FibonacciTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="introduction" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FibonacciTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -211,6 +231,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FromBinaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="introduction" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FromBinaryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FromBinaryTest.nullInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="introduction" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FromBinaryTest" />
+      <option name="METHOD_NAME" value="nullInput" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MultiplicationTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="introduction" />
       <option name="PACKAGE_NAME" value="" />
@@ -220,22 +259,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToBinaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="introduction" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ToBinaryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FromBinaryTest.nullInput" />
+        <item itemvalue="JUnit.FromBinaryTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.MultiplicationTableTest" />
         <item itemvalue="JUnit.FizzBuzzTest" />
-        <item itemvalue="JUnit.FibonacciTest" />
-        <item itemvalue="JUnit.ToBinaryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -253,18 +283,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestIntro - 2019.10.28 at 13h 50m 00s.xml">
-      <configuration name="TestIntro" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeTest - 2019.10.29 at 17h 36m 48s.xml">
-      <configuration name="PrimeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FromBinaryTest - 2019.10.29 at 17h 41m 49s.xml">
-      <configuration name="FromBinaryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ToBinaryTest - 2019.10.29 at 17h 45m 30s.xml">
-      <configuration name="ToBinaryTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ToBinaryTest - 2019.10.29 at 17h 45m 46s.xml">
       <configuration name="ToBinaryTest" configurationId="JUnit" />
     </history-entry>
@@ -283,9 +301,22 @@
     <history-entry file="MultiplicationTableTest - 2019.10.29 at 18h 08m 21s.xml">
       <configuration name="MultiplicationTableTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FromBinaryTest - 2019.10.29 at 18h 17m 30s.xml">
+      <configuration name="FromBinaryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FromBinaryTest - 2019.10.29 at 18h 19m 10s.xml">
+      <configuration name="FromBinaryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FromBinaryTest - 2019.10.29 at 18h 19m 41s.xml">
+      <configuration name="FromBinaryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FromBinaryTest - 2019.10.29 at 18h 20m 24s.xml">
+      <configuration name="FromBinaryTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="23" width="1920" height="1005" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -295,7 +326,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="Job Explorer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18576017" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18576017" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="DB Execution Console" />
       <window_info anchor="bottom" id="Terminal" />
@@ -305,7 +336,7 @@
       <window_info anchor="bottom" id="Console" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32947975" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32947975" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32947975" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -403,13 +434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/binary_operations/FromBinary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/binary_operations/ToBinary.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -435,16 +459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="77" selection-start-line="21" selection-start-column="77" selection-end-line="21" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FromBinaryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -523,6 +537,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/binary_operations/FromBinary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+          <folding>
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -534,9 +561,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FromBinaryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="51" lean-forward="true" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -554,6 +620,19 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>introduction</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -7,7 +7,7 @@ public class FromBinary implements Printer {
     private String result;
 
     public FromBinary(String code) throws IllegalArgumentException {
-        if(!code.matches("[0-1]+")){
+        if(!code.matches("[0-1]+") || code.isEmpty() || code == null){
             throw new IllegalArgumentException(String.format("%s %s %s","Your code",code,"is invalid! This code have to contains only 1 & 0!"));
         }
         this.code = code;

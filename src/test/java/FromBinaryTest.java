@@ -3,10 +3,10 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class FromBinaryTest {
-    private FromBinary fromBinary = new FromBinary("1111");
 
     @Test
     public void fromBinary() {
+        FromBinary fromBinary = new FromBinary("1111");
         fromBinary.print();
         final String result = fromBinary.getResult();
         final String expected = String.format("%s %s %s %d", "Your code", "1111", "in decimal:", 15);
@@ -17,4 +17,14 @@ public class FromBinaryTest {
     public void noCorrectChars() {
         FromBinary fromBinary = new FromBinary("a1111");
     }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void emptyInput() {
+        FromBinary fromBinary = new FromBinary("");
+    }
+
+//    @Test(expected = IllegalArgumentException.class)
+//    public void nullInput() {
+//        FromBinary fromBinary = new FromBinary(null);
+//    }
 }
