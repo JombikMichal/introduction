@@ -1,5 +1,15 @@
+import binary_operations.FromBinary;
+import binary_operations.ToBinary;
+import fibonacci.Fibonacci;
+import fizzBuzz.FizzBuzz;
+import multiplication.MultiplicationTable;
 import org.junit.Assert;
 import org.junit.Test;
+import prime.Prime;
+import shapes.Rectangle;
+import shapes.SandGlass;
+import shapes.Tree;
+import shapes.Triangle;
 
 public class TestIntro {
     private Fibonacci fibonacci = new Fibonacci(7);
@@ -14,7 +24,7 @@ public class TestIntro {
     public void fibonacciTest() {
         fibonacci.print();
         final String result = fibonacci.getResult();
-        final String expected = String.format("%s %d %s %d ", "Fibonacci number (from recurse function) for input", 7, "is:", 13);
+        final String expected = String.format("%s %d %s %d ", "fibonacci.Fibonacci number (from recurse function) for input", 7, "is:", 13);
         Assert.assertEquals(expected, result);
     }
 
@@ -22,7 +32,7 @@ public class TestIntro {
     public void fizzBuzzTest() {
         fizzBuzz.print();
         final String result = fizzBuzz.getResult();
-        final String expected = "FizzBuzz";
+        final String expected = "fizzBuzz.FizzBuzz";
         Assert.assertEquals(expected, result);
     }
 

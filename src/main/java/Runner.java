@@ -1,3 +1,16 @@
+import binary_operations.FromBinary;
+import binary_operations.ToBinary;
+import fibonacci.Fibonacci;
+import fizzBuzz.FizzBuzz;
+import hello_world.HelloWorld;
+import multiplication.MultiplicationTable;
+import prime.Prime;
+import printers.Printer;
+import shapes.Rectangle;
+import shapes.SandGlass;
+import shapes.Tree;
+import shapes.Triangle;
+
 import java.util.ArrayList;
 import java.util.List;
 

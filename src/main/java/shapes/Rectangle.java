@@ -1,4 +1,8 @@
-public class Rectangle implements Printer{
+package shapes;
+
+import printers.Printer;
+
+public class Rectangle implements Printer {
     private final int m;
     private final int n;
 

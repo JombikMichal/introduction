@@ -1,4 +1,8 @@
-public class MultiplicationTable implements Printer{
+package multiplication;
+
+import printers.Printer;
+
+public class MultiplicationTable implements Printer {
     private final int n;
     private final int itertion;
     private String result;

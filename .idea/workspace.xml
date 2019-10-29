@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2ead7c7-2981-4f02-ba09-ccab24027f00" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Prime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Fibonacci.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FizzBuzz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FromBinary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MultiplicationTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Prime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Printer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SandGlass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ToBinary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestIntro.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,7 +32,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -26,44 +40,6 @@
               <folding>
                 <element signature="e#64#65#0" expanded="true" />
                 <element signature="e#92#93#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestIntro.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="61" column="45" lean-forward="true" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1948#1949#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Prime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="51" column="77" selection-start-line="51" selection-start-column="77" selection-end-line="51" selection-end-column="77" />
-              <folding>
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,14 +69,23 @@
         <option value="$PROJECT_DIR$/src/main/java/Triangle.java" />
         <option value="$PROJECT_DIR$/src/main/java/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Runner.java" />
         <option value="$PROJECT_DIR$/src/main/java/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/main/java/FizzBuzz.java" />
         <option value="$PROJECT_DIR$/src/main/java/FromBinary.java" />
         <option value="$PROJECT_DIR$/src/main/java/MultiplicationTable.java" />
         <option value="$PROJECT_DIR$/src/main/java/ToBinary.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestIntro.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Runner.java" />
         <option value="$PROJECT_DIR$/src/main/java/Prime.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PrimeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/binary_operations/ToBinary.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FromBinaryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ToBinaryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fibonacci/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FibonacciTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fizzBuzz/FizzBuzz.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MultiplicationTableTest.java" />
       </list>
     </option>
   </component>
@@ -157,6 +142,14 @@
               <item name="introduction_to_java" type="b2602c69:ProjectViewProjectNode" />
               <item name="introduction" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shapes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="introduction_to_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="introduction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -175,7 +168,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -192,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestIntro">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="introduction" />
@@ -200,30 +193,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestIntro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FibonacciTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="introduction" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestIntro" />
+      <option name="MAIN_CLASS_NAME" value="FibonacciTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestIntro.fibonacciTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="introduction" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestIntro" />
-      <option name="METHOD_NAME" value="fibonacciTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiplicationTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="introduction" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MultiplicationTableTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToBinaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="introduction" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ToBinaryTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestIntro" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.TestIntro.fibonacciTest" />
+        <item itemvalue="JUnit.MultiplicationTableTest" />
+        <item itemvalue="JUnit.FizzBuzzTest" />
+        <item itemvalue="JUnit.FibonacciTest" />
+        <item itemvalue="JUnit.ToBinaryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -241,40 +253,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestIntro - 2019.10.28 at 12h 58m 53s.xml">
+    <history-entry file="TestIntro - 2019.10.28 at 13h 50m 00s.xml">
       <configuration name="TestIntro" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestIntro - 2019.10.28 at 13h 01m 26s.xml">
-      <configuration name="TestIntro" configurationId="JUnit" />
+    <history-entry file="PrimeTest - 2019.10.29 at 17h 36m 48s.xml">
+      <configuration name="PrimeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestIntro - 2019.10.28 at 13h 04m 00s.xml">
-      <configuration name="TestIntro" configurationId="JUnit" />
+    <history-entry file="FromBinaryTest - 2019.10.29 at 17h 41m 49s.xml">
+      <configuration name="FromBinaryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestIntro - 2019.10.28 at 13h 08m 25s.xml">
-      <configuration name="TestIntro" configurationId="JUnit" />
+    <history-entry file="ToBinaryTest - 2019.10.29 at 17h 45m 30s.xml">
+      <configuration name="ToBinaryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestIntro - 2019.10.28 at 13h 09m 18s.xml">
-      <configuration name="TestIntro" configurationId="JUnit" />
+    <history-entry file="ToBinaryTest - 2019.10.29 at 17h 45m 46s.xml">
+      <configuration name="ToBinaryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestIntro - 2019.10.28 at 13h 09m 28s.xml">
-      <configuration name="TestIntro" configurationId="JUnit" />
+    <history-entry file="FibonacciTest - 2019.10.29 at 17h 48m 13s.xml">
+      <configuration name="FibonacciTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestIntro - 2019.10.28 at 13h 10m 09s.xml">
-      <configuration name="TestIntro" configurationId="JUnit" />
+    <history-entry file="FibonacciTest - 2019.10.29 at 17h 50m 04s.xml">
+      <configuration name="FibonacciTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestIntro - 2019.10.28 at 13h 14m 02s.xml">
-      <configuration name="TestIntro" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest - 2019.10.29 at 17h 53m 06s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestIntro - 2019.10.28 at 13h 14m 39s.xml">
-      <configuration name="TestIntro" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest - 2019.10.29 at 17h 54m 57s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestIntro - 2019.10.28 at 13h 15m 13s.xml">
-      <configuration name="TestIntro" configurationId="JUnit" />
+    <history-entry file="MultiplicationTableTest - 2019.10.29 at 18h 08m 21s.xml">
+      <configuration name="MultiplicationTableTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="23" width="1920" height="1005" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -284,7 +295,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="Job Explorer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18576017" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18576017" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="DB Execution Console" />
       <window_info anchor="bottom" id="Terminal" />
@@ -293,8 +304,8 @@
       <window_info anchor="bottom" id="Messages" weight="0.32947975" />
       <window_info anchor="bottom" id="Console" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32947975" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32947975" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32947975" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -313,8 +324,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/FromBinary.java</url>
-          <line>28</line>
+          <url>file://$PROJECT_DIR$/src/main/java/binary_operations/FromBinary.java</url>
+          <line>30</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -322,31 +333,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Printer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-          <folding>
-            <element signature="e#88#89#0" expanded="true" />
-            <element signature="e#138#139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
@@ -358,110 +344,179 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Fibonacci.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="118" />
+        <state relative-caret-position="360">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
           <folding>
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FizzBuzz.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="36" />
-          <folding>
-            <element signature="e#96#97#0" expanded="true" />
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FromBinary.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/printers/Printer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="92" />
-          <folding>
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MultiplicationTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="97" />
-          <folding>
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" column="80" selection-start-line="27" selection-start-column="80" selection-end-line="27" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SandGlass.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello_world/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="59" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="59" />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ToBinary.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/shapes/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="104" />
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/shapes/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/shapes/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/shapes/SandGlass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/binary_operations/FromBinary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/binary_operations/ToBinary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="108" />
           <folding>
-            <element signature="e#96#97#0" expanded="true" />
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
             <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tree.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/PrimeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ToBinaryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <caret line="21" column="77" selection-start-line="21" selection-start-column="77" selection-end-line="21" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Triangle.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/FromBinaryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fibonacci/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fizzBuzz/FizzBuzz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="45" column="95" selection-start-line="45" selection-start-column="95" selection-end-line="45" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FibonacciTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/multiplication/MultiplicationTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MultiplicationTableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/prime/Prime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="86" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestIntro.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="45" lean-forward="true" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1948#1949#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        <state relative-caret-position="270">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -475,17 +530,6 @@
           <folding>
             <element signature="e#64#65#0" expanded="true" />
             <element signature="e#92#93#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Prime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="51" column="77" selection-start-line="51" selection-start-column="77" selection-end-line="51" selection-end-column="77" />
-          <folding>
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
           </folding>
         </state>
       </provider>

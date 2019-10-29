@@ -1,3 +1,8 @@
+package shapes;
+
+import printers.Printer;
+import shapes.Tree;
+
 public class SandGlass implements Printer {
     private final int n;
     private Tree tree;

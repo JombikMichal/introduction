@@ -1,3 +1,7 @@
+package prime;
+
+import printers.Printer;
+
 public class Prime implements Printer {
     private final int n;
     private String result;

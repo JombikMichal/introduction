@@ -1,3 +1,7 @@
+package hello_world;
+
+import printers.Printer;
+
 public class HelloWorld implements Printer {
 
     /**

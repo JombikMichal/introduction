@@ -1,3 +1,7 @@
+package fizzBuzz;
+
+import printers.Printer;
+
 public class FizzBuzz implements Printer {
     private final int n;
     private String result;
@@ -21,7 +25,7 @@ public class FizzBuzz implements Printer {
          * Given number n print the following:
          * Fizz if n is divisible by 3
          * Buzz if n is divisible by 5
-         * FizzBuzz if n is divisible by 3 and 5
+         * fizzBuzz.FizzBuzz if n is divisible by 3 and 5
          */
 
         if (n % 15 == 0) {
@@ -39,6 +43,7 @@ public class FizzBuzz implements Printer {
             System.out.println(result);
             return;
         }
-        System.out.println(String.format("%s %d %s", "Your number", n, "is no divisible by 3 or 5"));
+        this.result = String.format("%s %d %s", "Your number", n, "is no divisible by 3 or 5");
+        System.out.println(result);
     }
 }

@@ -1,4 +1,8 @@
-public class FromBinary implements Printer{
+package binary_operations;
+
+import printers.Printer;
+
+public class FromBinary implements Printer {
     private final String code;
     private String result;
 

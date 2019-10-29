@@ -1,3 +1,7 @@
+package binary_operations;
+
+import printers.Printer;
+
 public class ToBinary implements Printer {
     private final int n;
     private String result;
@@ -21,7 +25,7 @@ public class ToBinary implements Printer {
     @Override
     public void print() {
         int n = Math.abs(this.n);
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         for (int i = n; i > 0; i = i / 2) {
             sb.append(i % 2);
         }

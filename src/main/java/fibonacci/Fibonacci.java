@@ -1,3 +1,7 @@
+package fibonacci;
+
+import printers.Printer;
+
 public class Fibonacci implements Printer {
     private final int n;
     private String result;
@@ -20,8 +24,8 @@ public class Fibonacci implements Printer {
     @Override
     public void print() {
         /**
-         * #8 Print n-th Fibonacci number. Try both approaches. Which one is more efficient?
-         * Fibonacci Series of 10 numbers: 0 1 1 2 3 5 8 13 21 34
+         * #8 Print n-th fibonacci.Fibonacci number. Try both approaches. Which one is more efficient?
+         * fibonacci.Fibonacci Series of 10 numbers: 0 1 1 2 3 5 8 13 21 34
          */
 
         int first = 0;
@@ -35,12 +39,11 @@ public class Fibonacci implements Printer {
             first = second;
             second = result;
         }
-        this.result = String.format("%s %d %s %d ", "Fibonacci number for input", n, "is:", result);
-        System.out.println(result);
 
-        int i = fib(this.n);
-        this.result = String.format("%s %d %s %d ", "Fibonacci number (from recurse function) for input", n, "is:", i);
-        System.out.println(result);
+        if(result == fib(this.n)){
+            this.result = String.format("%s %d %s %d ", "fibonacci.Fibonacci number for input", n, "is:", result);
+            System.out.println(result);
+        }
     }
 
     private int fib(int n) {

@@ -1,7 +1,11 @@
-public class Tree implements Printer{
+package shapes;
+
+import printers.Printer;
+
+public class Triangle implements Printer {
     private final int height;
 
-    public Tree(int height) throws IllegalArgumentException{
+    public Triangle(int height) throws IllegalArgumentException{
         if(height < 0){
             throw new IllegalArgumentException("Entered number is less than zero!");
         }
@@ -13,15 +17,13 @@ public class Tree implements Printer{
     }
 
     /**
-     * #3 Print a tree from * for given height h
+     * #2 Implement a method that will draw a triangle from * for given height h
      */
 
     @Override
     public void print() {
         for (int i = 0; i < height; i++) {
-            System.out.print(" ".repeat(height - 1 - i));
-            System.out.print("*".repeat(i * 2 + 1));
-            System.out.println();
+            System.out.println("*".repeat(i + 1));
         }
     }
 }
